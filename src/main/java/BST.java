@@ -8,8 +8,10 @@ public class BST {
     private int size;
 
     public boolean isAVL() {
-        //TODO: implementar
-        return false;
+	if (this.isEmpty())
+	    return true;
+	else
+	    return isBalanced(this.root);
     }
 
     /**
@@ -30,7 +32,12 @@ public class BST {
     }
 
     private int balance(Node node) {
-        return -1;
+	return height(node.left) - height(node.right);
+    }
+
+    private boolean isBalanced(Node node) {
+	int nodeBalance = balance(node);
+	return nodeBalance >= -1 && nodeBalance <= 1;
     }
 
     /**

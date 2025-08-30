@@ -1,8 +1,8 @@
 # Identificação
 
-* Nome: 
-* Email (@ccc): 
-* Matrícula: 
+* Nome: Guilherme Noronha Fragoso
+* Email (@ccc): guilherme.noronha.fragoso@ccc.ufcg.edu.br
+* Matrícula: 124110629
 
 # Roteiro: isAVL
 
